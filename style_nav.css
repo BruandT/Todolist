@@ -37,3 +37,64 @@ header ul a{
     font-size: 2em;
     text-decoration: none;
 }
+.add_todo{
+    width: 1000px;
+    height: 700px;
+    margin: 40px;
+    background: #243B55;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.add_todo form div input,textarea{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: none;
+}
+.add_todo form div:nth-child(1) input{
+    width: 620px;
+    height: 70px;
+}
+.add_todo form span div:nth-child(1) input{
+    width: 295px;
+    height: 70px;
+    display: flex;
+}
+.add_todo form span div:nth-child(2) input{
+    width: 295px;
+    height: 70px;
+}
+.add_todo form span{
+    display: flex;
+}
+.add_todo form span div:nth-child(1){
+    margin-right: 30px;
+}
+.add_todo form div p{
+    font-size: 28px;
+    line-height: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.add_todo form div textarea{
+    width: 620px;
+    height: 230px;
+    resize: none;
+}
+button{
+    width: 180px;
+    height: 70px;
+    background: #03E9F4;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
