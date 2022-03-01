@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 98vh;
+    width: 98vw;
+    background: #141e30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+header{
+    width: 1240px;
+    height: 120px;
+    background: #243b55;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul li{
+    display: flex;
+    
+}
+
+.calendar{
+    width: 760px;
+    height: 540px;
+    background-color: aqua;
+
+}
