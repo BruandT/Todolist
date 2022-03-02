@@ -10,55 +10,31 @@
 </head>
 <body>
     <header>
-        <ul><li id="menu1"><a href="#">Agenda</a></li>
-            <li id="menu2"><a href="#">Ajout des tâches</a></li>
+        <ul><li id="menu1"><a href="Calendrier.html">Agenda</a></li>
+            <li id="menu2"><a href="nav.html">Ajout des tâches</a></li>
             <li id="menu3"><a href="#">Liste des tâches</a></li></ul>
     </header>
-    <div class="month_change"> <a href=""><i class="fa-solid fa-caret-left"></i></a><p>MARS</p><a href=""><i class="fa-solid fa-caret-right"></i></a></div>
-    <div id="days"><p>lundi</p>
-    <p>mardi</p>
-    <p>mercredi</p>
-    <p>jeudi</p>
-    <p>vendredi</p>
-    <p>samedi</p>
-    <p>dimanche</p></div>
-    <div class="calendar">
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day"></div>
-    </div>
-    
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days"></div>
+        </div>
+      
+      <script src="calendrier.js"></script>
 </body>
 </html>
